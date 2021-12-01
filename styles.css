@@ -131,8 +131,9 @@ menu {
   .name,
   .intro_wrapper, 
   .about-words, 
-  .about-image-wrapper {
-  padding: 10px;
+  .about-image-wrapper,
+  .footer {
+  padding: 5px 15px;
   }
 
   .nav {
@@ -141,5 +142,9 @@ menu {
 
   .menu {
   padding: 5px;
+  }
+
+  .footer {
+    font-size: 2em;
   }
 }
