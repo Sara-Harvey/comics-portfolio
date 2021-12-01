@@ -126,8 +126,20 @@ menu {
     flex-direction: column;
   }
 
-.image_wrapper_title, .intro_wrapper, .about-words, .about-image-wrapper {
+  .header, 
+  .image_wrapper_title, 
+  .name,
+  .intro_wrapper, 
+  .about-words, 
+  .about-image-wrapper {
   padding: 10px;
   }
-}
 
+  .nav {
+  padding-right: 10px;
+  }
+
+  .menu {
+  padding: 5px;
+  }
+}
