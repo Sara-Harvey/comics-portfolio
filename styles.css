@@ -29,10 +29,6 @@ p {
   font-size: 1.1em;
 }
 
-a {
-  font-size: 1.5em;
-}
-
 a:link {
   text-decoration: none;
   color: black;
@@ -71,6 +67,10 @@ menu {
   padding: 10px;
   font-family: Permanent Marker, sans-serif;
   color: black;
+}
+
+menu a {
+  font-size: 1.75em;
 }
 
 .header {
