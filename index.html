@@ -23,8 +23,7 @@
               height="auto"
               width="100%"
               alt="the name Sara Harvey">
-            </img>
-            
+            </img>   
           </div>
         </section>
 
@@ -35,7 +34,6 @@
               height="auto"
               width="100%">
             </img>
-
           </div>
         </section>
 
@@ -50,9 +48,66 @@
           </div>
         </div>
 
-        <p class="footer">More to come</p>
+        <div class="directions">
+          <div class="scroll-message">Scroll the panels:</div>
+          <div class="page-message">Next page</div>
+        </div>
 
-        <script></script>
-      </div>
+        <div class="slideshow-container">
+          <a class="prev" onclick="plusSlides(-1)"> < </a>
+
+          <div class="mySlides-wrapper">
+            <div class="mySlides">
+              <img src="1-harvey.png" style="width:100%; height: auto">
+            </div>
+
+            <div class="mySlides">
+              <img src="2-harvey.png" style="width:100%; height: auto">
+            </div>
+
+            <div class="mySlides">
+              <img src="3-harvey.png" style="width:100%; height: auto">
+            </div>
+
+            <div class="mySlides">
+              <img src="4-harvey.png" style="width:100%; height: auto">
+            </div>
+
+            <div class="mySlides">
+              <img src="5-harvey.png" style="width:100%; height: auto">
+            </div>
+          </div>
+
+          <a class="next" onclick="plusSlides(1)"> > </a>
+
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          slides[slideIndex-1].style.display = "flex"; 
+        }
+      </script>
     </body>
 </html>
