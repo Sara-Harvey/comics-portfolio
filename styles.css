@@ -103,6 +103,7 @@ menu {
   font-family: Permanent Marker, sans-serif;
   font-size: 3em;
   padding: 0px 35px;
+  line-height: normal;
 }
 
 .page-message {
