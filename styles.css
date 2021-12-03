@@ -96,14 +96,48 @@ menu {
   align-items: center;
 }
 
-.footer {
+.directions {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   font-family: Permanent Marker, sans-serif;
-  justify-content: flex-end;
-  padding: 0px 40px 40px 0px;
-  font-size: 2.5em;
+  font-size: 3em;
+  padding: 0px 35px;
 }
 
+.page-message {
+  background-color: #A9A9A9;
+  border-radius: 10px;
+  padding: 3px 15px;
+}
+
+
+/* slider */
+.mySlides {display: none}
+
+.slideshow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px 20px;
+}
+
+/* next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  font-family: Permanent Marker, sans-serif;
+  padding: 80px 20px;
+  color: black;
+  font-size: 80px;
+}
+
+.mySlides-wrapper {
+  align-items: center;
+  flex-grow: 2;
+  max-width: 800px;
+}
+
+/* about page */
 .about-flex-container {
   display: flex;
   flex-direction: column;
@@ -140,11 +174,12 @@ menu {
   padding-right: 10px;
   }
 
-  .menu {
-  padding: 5px;
+  .directions {
+  font-size: 1.75em;
   }
 
-  .footer {
-    font-size: 2em;
+  .prev, .next {
+  padding-top: 80px;
+  font-size: 40px;
   }
 }
