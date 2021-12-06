@@ -111,6 +111,9 @@ menu a {
   padding: 3px 15px;
 }
 
+.page-message a:hover {
+  color: white;
+}
 
 /* slider */
 .mySlides {display: none}
