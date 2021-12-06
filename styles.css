@@ -31,22 +31,22 @@ p {
 
 a:link {
   text-decoration: none;
-  color: #A9A9A9;
+  color: black;
 }
 
 a:visited {
   text-decoration: none;
-  color: #A9A9A9;
+  color: black;
 }
 
 a:hover {
   text-decoration: none;
-  color: black;
+  color: #A9A9A9;
 }
 
 a:active {
   text-decoration: none;
-  color: #A9A9A9;
+  color: black;
 }
 
 .flex-container {
@@ -153,7 +153,6 @@ menu a {
   padding: 0px 250px 40px;
   align-items: center;
 }
-
 
 @media (max-width: 800px) {
   .body {
