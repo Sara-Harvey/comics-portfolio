@@ -57,15 +57,15 @@ a:active {
 
 ul {
   font-family: Permanent Marker, sans-serif;
-  font-size: 1.25em;
+  font-size: 14px;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 2em 0 0;
   overflow: hidden;
 }
 
 li {
-  float: left;
+  text-align: right;
 }
 
 li a {
