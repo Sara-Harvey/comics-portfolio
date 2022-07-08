@@ -56,6 +56,7 @@ a:active {
 }
 
 ul {
+  font-family: "Permanent Marker";
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -67,7 +68,7 @@ li {
 }
 
 li a {
-  display: block;
+  display: inline-block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
