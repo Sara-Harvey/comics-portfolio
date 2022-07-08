@@ -75,6 +75,16 @@ li a {
   text-decoration: none;
 }
 
+li a:link, menu a:visited, menu a:active {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #A9A9A9;
+}
+
 .header {
   display: flex;
   flex-direction: column;
