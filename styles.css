@@ -56,7 +56,7 @@ a:active {
 }
 
 nav {
-  display: inline-flex;
+  display: inline-block;
   flex-direction: row;
   justify-content: flex-end;
   padding-right: 40px;
