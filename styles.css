@@ -50,8 +50,14 @@ a:active {
 }
 
 .intro_wrapper {
-  padding: 3em 5em;
+  padding: 5em;
   align-items: center;
+}
+
+@media (max-width: 800px) {
+  .intro-wrapper {
+    padding: 3em 1em;
+  }
 }
 
 
